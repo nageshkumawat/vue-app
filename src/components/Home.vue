@@ -18,7 +18,7 @@ export default {
     },
     methods:{
         login(){
-            let nUser = {user_name:'nagesh',password:'Nagesh@123'}
+            let nUser = {user_name:'user1',password:'User@123'}
             localStorage.setItem('user',JSON.stringify(nUser))
             // console.log(localStorage.getItem('user'))
             useStore().setUser(nUser)
